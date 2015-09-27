@@ -11,7 +11,7 @@ each recorded feature, and creates a tidy dataset of the average mean and
 standard deviation for each subject/activity pairing.
 
 The script takes four file paths as inputs for its function:
-- Path containing activities and features data
-- Path containing test datasets
-- Path containing train datasets
-- Output path of final tidy dataset
+- infoPath - Path containing activities and features data
+- testPath - Path containing test datasets
+- trainPath - Path containing train datasets
+- outputPath - Output path of final tidy dataset
