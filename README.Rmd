@@ -1,0 +1,17 @@
+Course Project
+------------------------------------
+The run_analysis.R script in this repository takes the data provided by UCI
+for Human Activity Recognition and assembles a tidy dataset. The data in
+question records a number of 3-dimensional movements by 30 volunteers while
+performing a certain set of activities (walking, walking upstairs, walking
+downstairs, sitting, standing, and laying).
+
+The run_analysis.R script extracts only the mean and standard deviation for 
+each recorded feature, and creates a tidy dataset of the average mean and 
+standard deviation for each subject/activity pairing.
+
+The script takes four file paths as inputs for its function:
+- Path containing activities and features data
+- Path containing test datasets
+- Path containing train datasets
+- Output path of final tidy dataset
