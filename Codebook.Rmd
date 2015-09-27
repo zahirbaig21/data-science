@@ -1,0 +1,108 @@
+---
+title: "Codebook"
+output: html_document
+---
+
+A breakdown of the output variables is provided below. For each feature there 
+is an associated calculated average of the mean and standard deviation, and, 
+where specified, this feature variable exists in the output in the X, Y, or Z 
+axis:
+
+- *Activity* - activity performed by subject (standing, walking, etc.)
+- *Subject* - ID of subject performing the given activity
+- *Average_tBodyAcc.mean.X* - average of the mean body motion acceleration in 
+the time domain along the X axis
+- *Average_tBodyAcc.mean.Y* - average of the mean body motion acceleration in 
+the time domain along the Y axis
+- *Average_tBodyAcc.mean.Z* - average of the mean body motion acceleration in 
+the time domain along the Z axis
+- *Average_tBodyAcc.std.X* - average of the standard deviation of body motion 
+acceleration in the time domain along the X axis
+- *Average_tBodyAcc.std.Y* - average of the standard deviation of body motion 
+acceleration in the time domain along the Y axis
+- *Average_tBodyAcc.std.Z* - average of the standard deviation of body motion 
+acceleration in the time domain along the Z axis
+- *Average_tGravityAcc.mean.X* - average of the mean gravitational acceleration
+in the time domain along the X axis
+- *Average_tGravityAcc.mean.Y* - average of the mean gravitational acceleration
+in the time domain along the Y axis
+- *Average_tGravityAcc.mean.Z* - average of the mean gravitational acceleration
+in the time domain along the Z axis
+- *Average_tGravityAcc.std.X* - average of the standard deviation of 
+gravitational acceleration in the time domain along the X axis
+- *Average_tGravityAcc.std.Y* - average of the standard deviation of 
+gravitational acceleration in the time domain along the Y axis
+- *Average_tGravityAcc.std.Z* - average of the standard deviation of 
+gravitational acceleration in the time domain along the Z axis
+- *Average_tBodyAccJerk.mean.X* - average of the mean of body motion jerk
+(rate of acceleration) in the time domain along the X axis
+- *Average_tBodyAccJerk.mean.Y* - average of the mean of body motion jerk
+(rate of acceleration) in the time domain along the Y axis
+- *Average_tBodyAccJerk.mean.Z* - average of the mean of body motion jerk
+(rate of acceleration) in the time domain along the Z axis
+- *Average_tBodyAccJerk.std.X* - average of the standard deviation of body 
+motion jerk (rate of acceleration) in the time domain along the X axis
+- *Average_tBodyAccJerk.std.Y* - average of the standard deviation of body 
+motion jerk (rate of acceleration) in the time domain along the Y axis
+- *Average_tBodyAccJerk.std.Z* - average of the standard deviation of body 
+motion jerk (rate of acceleration) in the time domain along the Z axis
+- *Average_tBodyGyro.mean.X* - average of the mean of body angular velocity as
+recorded by the gyroscope in the time domain along the X axis
+- *Average_tBodyGyro.mean.Y* - average of the mean of body angular velocity as
+recorded by the gyroscope in the time domain along the Y axis
+- *Average_tBodyGyro.mean.Z* - average of the mean of body angular velocity as
+recorded by the gyroscope in the time domain along the Z axis
+- *Average_tBodyGyro.std.X* - average of the standard deviation of body angular 
+velocity as recorded by the gyroscope in the time domain along the X axis
+- *Average_tBodyGyro.std.Y* - average of the standard deviation of body angular 
+velocity as recorded by the gyroscope in the time domain along the X axis
+- *Average_tBodyGyro.std.Z* - average of the standard deviation of body angular 
+velocity as recorded by the gyroscope in the time domain along the X axis
+- *Average_tBodyGyroJerk.mean.X* - average of the mean of body angular jerk as 
+recorded by the gyroscope in the time domain along the X axis
+- *Average_tBodyGyroJerk.mean.Y* - average of the mean of body angular jerk as 
+recorded by the gyroscope in the time domain along the Y axis
+- *Average_tBodyGyroJerk.mean.Z* - average of the mean of body angular jerk as 
+recorded by the gyroscope in the time domain along the Z axis
+- *Average_tBodyGyroJerk.std.X* - average of the standar deviation of body 
+angular jerk as recorded by the gyroscope in the time domain along the X axis
+- *Average_tBodyGyroJerk.std.Y* - average of the standar deviation of body 
+angular jerk as recorded by the gyroscope in the time domain along the Y axis
+- *Average_tBodyGyroJerk.std.Z* - average of the standar deviation of body 
+angular jerk as recorded by the gyroscope in the time domain along the Z axis
+- *Average_tBodyAccMag.mean* - average of the mean magnitude of body acceleration
+- *Average_tBodyAccMag.std* - standard deviation of the mean magnitude of body acceleration
+- *Average_tGravityAccMag.mean* - average of the mean magnitude of gravitational acceleration
+- *Average_tGravityAccMag.std* - average of the standard deviation of magnitude of gravitational acceleration
+- *Average_tBodyAccJerkMag.mean* - average of the mean magnitude of body jerk
+- *Average_tBodyAccJerkMag.std* - average of the standard deviation of magnitude of body jerk
+- *Average_tBodyGyroMag.mean* - average of the mean magnitude of body angular velocity
+- *Average_tBodyGyroMag.std* - average of the mean standard deviation of body angular velocity
+- *Average_tBodyGyroJerkMag.mean* - average of the mean magnitude of body angular jerk
+- *Average_tBodyGyroJerkMag.std* - average of the standard deviation of magnitude of body angular jerk
+- *Average_fBodyAcc.mean.X*
+- *Average_fBodyAcc.mean.Y*
+- *Average_fBodyAcc.mean.Z*
+- *Average_fBodyAcc.std.X*
+- *Average_fBodyAcc.std.Y*
+- *Average_fBodyAcc.std.Z*
+- *Average_fBodyAccJerk.mean.X*
+- *Average_fBodyAccJerk.mean.Y*
+- *Average_fBodyAccJerk.mean.Z*
+- *Average_fBodyAccJerk.std.X*
+- *Average_fBodyAccJerk.std.Y*
+- *Average_fBodyAccJerk.std.Z*
+- *Average_fBodyGyro.mean.X*
+- *Average_fBodyGyro.mean.Y*
+- *Average_fBodyGyro.mean.Z*
+- *Average_fBodyGyro.std.X*
+- *Average_fBodyGyro.std.Y*
+- *Average_fBodyGyro.std.Z*
+- *Average_fBodyAccMag.mean*
+- *Average_fBodyAccMag.std*
+- *Average_fBodyBodyAccJerkMag.mean*
+- *Average_fBodyBodyAccJerkMag.std*
+- *Average_fBodyBodyGyroMag.mean*
+- *Average_fBodyBodyGyroMag.std*
+- *Average_fBodyBodyGyroJerkMag.mean*
+- *Average_fBodyBodyGyroJerkMag.std*
